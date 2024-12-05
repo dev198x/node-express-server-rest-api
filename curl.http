@@ -1,0 +1,10 @@
+
+curl -X 'POST' \
+  'http://localhost:3000/users' \
+  -H 'accept: */*' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "email": "dat.dao+12@c2c-techhub.io",
+  "password": "12345678",
+  "deviceId": "{{$guid}}"
+}'
